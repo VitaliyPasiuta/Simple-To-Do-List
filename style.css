@@ -1,0 +1,51 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background: linear-gradient(#2b5876, #4e4376);
+  min-height: 100vh;
+}
+
+h2{
+  margin: 16px;
+  color: white;
+}
+
+#to-do_root, #to-do_input_block{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+#to-do_root{
+  padding-top: 20%;
+  flex-wrap: wrap;
+}
+
+#to-do_input_block input[type="button"]{
+  margin-left: 8px;
+  padding: 0 16px;
+}
+
+#to-do_input_block input[type="text"]{
+  width: 50%;
+  height: 2em;
+}
+
+#to-do_list li{
+  text-align: center;
+  color: white;
+  padding: 16px;
+  list-style-type: none;
+}
+
+#to-do_list li input{
+  margin-left: 8px;
+}
+
+.checked{
+  text-decoration: line-through;
+}
+
